@@ -13,6 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  *      1.申明接口的每一个方法都是调用哪个远程服务的那个请求
  *  3）开启远程服务功能
  *
+ *
  */
 
 @EnableFeignClients(basePackages = "com.atguigu.gulimall.member.feign")
